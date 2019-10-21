@@ -1,13 +1,13 @@
 import React from "react";
 import Table from "./Table";
-import List from "./List"
+import List from "./List";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      buttonClicked: "",
+      buttonClicked: "",s
       assignments: [] /*Below this line, add the students state variable*/,
       grades: {}
     };
